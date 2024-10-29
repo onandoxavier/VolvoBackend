@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35201.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EB1AC51B-50C1-474A-8005-BDBFD3E63931}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Volvo.API", "Volvo.API", "{5564386F-06D7-475D-949F-84191D0EDB5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volvo.API", "Volvo.API\Volvo.API.csproj", "{8BDDDB16-4D3E-43A6-8575-CD96BA9E9191}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Volvo.API.Tests", "Volvo.API.Tests", "{BA634277-D71A-4AD1-9A5E-E17D0B7C3B1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volvo.API.Tests", "Volvo.API.Tests\Volvo.API.Tests.csproj", "{D7DFB487-E4FB-4AE6-91CC-CFE3F8F2CC1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BDDDB16-4D3E-43A6-8575-CD96BA9E9191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BDDDB16-4D3E-43A6-8575-CD96BA9E9191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BDDDB16-4D3E-43A6-8575-CD96BA9E9191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BDDDB16-4D3E-43A6-8575-CD96BA9E9191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7DFB487-E4FB-4AE6-91CC-CFE3F8F2CC1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7DFB487-E4FB-4AE6-91CC-CFE3F8F2CC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7DFB487-E4FB-4AE6-91CC-CFE3F8F2CC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7DFB487-E4FB-4AE6-91CC-CFE3F8F2CC1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5564386F-06D7-475D-949F-84191D0EDB5A} = {EB1AC51B-50C1-474A-8005-BDBFD3E63931}
+		{8BDDDB16-4D3E-43A6-8575-CD96BA9E9191} = {5564386F-06D7-475D-949F-84191D0EDB5A}
+		{BA634277-D71A-4AD1-9A5E-E17D0B7C3B1F} = {EB1AC51B-50C1-474A-8005-BDBFD3E63931}
+		{D7DFB487-E4FB-4AE6-91CC-CFE3F8F2CC1E} = {BA634277-D71A-4AD1-9A5E-E17D0B7C3B1F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBDD11D6-F8FA-441F-8740-0DB944173E77}
+	EndGlobalSection
+EndGlobal
